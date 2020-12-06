@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@vk-io/authorization": "^1.0.0",
+    "mongoose": "^5.11.2",
+    "simple-scheduler-task": "^3.0.12",
+    "vk-io": "^4.1.1"
+  }
+}
