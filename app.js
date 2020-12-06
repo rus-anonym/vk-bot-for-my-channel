@@ -1,9 +1,6 @@
-const vk = require(`./lib/vk.js`);
-const mongo = require(`./lib/database.js`);
+const core = require(`./lib/core.js`);
 
 (async function main() {
-	await vk.initialize();
-	console.log(`Polling started at ${new Date()}`);
-	await mongo.initialize();
-	console.log(`DataBase connect succesfully`);
+	await core.initialize();
+	console.log(`Script start at ${new Date()}`);
 })();
